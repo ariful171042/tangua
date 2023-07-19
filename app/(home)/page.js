@@ -1,8 +1,7 @@
 import BoatTrip from "@/components/BoatTrip"
-import From from "@/components/From"
 import HeroSection from "@/components/HeroSection"
-import Navber from "@/components/Navber"
 import OurFacility from "@/components/OurFacility"
+import Packages from "@/components/packages"
 
 
 
@@ -13,6 +12,7 @@ const HomePage = () => {
       <HeroSection/>
       <BoatTrip/>
       <OurFacility/>
+      <Packages/>
     </div>
   )
 }
