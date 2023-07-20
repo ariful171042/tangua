@@ -1,7 +1,9 @@
 import BoatTrip from "@/components/BoatTrip"
 import HeroSection from "@/components/HeroSection"
 import OurFacility from "@/components/OurFacility"
-import Packages from "@/components/packages"
+import Gallery from "@/components/Gallery"
+
+
 
 
 
@@ -12,7 +14,7 @@ const HomePage = () => {
       <HeroSection/>
       <BoatTrip/>
       <OurFacility/>
-      <Packages/>
+      <Gallery/>
     </div>
   )
 }

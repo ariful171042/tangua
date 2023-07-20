@@ -63,7 +63,7 @@ const data = [
 const OurFacility = () => {
   return (
     <div className="container mx-auto mt-10">
-        <h3  className="text-4xl font-semibold">আমাদের সেবা সমূহ</h3>
+        <h3  className="text-4xl font-medium">আমাদের সেবা সমূহ</h3>
             <div className="flex flex-wrap gap-5 justify-center mt-5">
                 {
                     data.map((item)=>(
