@@ -81,7 +81,7 @@ const Gallery = ()=> {
        <div className=" grid grid-cols-3 justify-between gap-5 ">
 
        {images.map((image) => (
-            <div className=' w-full h-[13rem] overflow-hidden rounded-lg hover:scale-105 duration-300'>
+            <div key={image.id} className=' w-full h-[13rem] overflow-hidden rounded-lg hover:scale-105 duration-300'>
               <Image
               src={image.src}
               alt={image.alt}
