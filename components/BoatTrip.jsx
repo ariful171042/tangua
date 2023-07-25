@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BoatTrip = () => {
   return (
-    <div className="container mx-auto mt-5  md:p-10 flex  flex-col justify-between gap-5">
+    <div className="container mx-auto mt-5  md:p-10 flex  flex-col lg:grid lg:grid-cols-2  justify-between gap-5">
       <div className="image w-full">
         <Image
           src={
@@ -14,7 +14,7 @@ const BoatTrip = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="detals flex flex-col  justify-between sm:px-0 p-5 ">
+      <div className="detals flex flex-col  justify-between lg:p-0 p-5 ">
         <h2 className="mb-2 text-3xl font-medium md:text-3xl ">
           একটি নৌকা ভ্রমণ আপনার অবকাশ সম্পূর্ণ করতে পারে
         </h2>
