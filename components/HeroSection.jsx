@@ -16,11 +16,11 @@ const HeroSection = () => {
         priority
       />
       <Overlay className="fixed" />
-      <div className="absolute z-10  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-2 justify-center items-center text-white">
-        <h1 className="sm:text-4xl text-2xl font-medium ">
+      <div className="absolute w-full sm:w-auto p-5 sm:p-0 z-10  top-1/2 mt-8 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-2 justify-center items-center text-white">
+        <h1 className="sm:text-4xl text-3xl font-medium ">
           টাঙ্গুয়ার ভাসমান বাড়ি
         </h1>
-        <p className="text-center text-sm">
+        <p className="text-center text-xl sm:text-sm">
           ফ্লোটিং হাউস অফ টাঙ্গুয়া-এর লক্ষ্য হল ভ্রমণকারীদের জন্য একটি অনন্য
           এবং আনন্দদায়ক অবকাশের অভিজ্ঞতা প্রদান করা যারা টাঙ্গুয়ার হাওর
           অন্বেষণ করতে চান এবং একটি বাড়ির সমস্ত আরাম থাকা অবস্থায় প্রকৃতির

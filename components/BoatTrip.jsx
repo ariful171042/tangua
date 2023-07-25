@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const BoatTrip = () => {
   return (
-    <div className="container mx-auto  mt-10 flex sm:flex-row flex-col justify-between gap-5">
-      <div className="image w-[25rem]">
+    <div className="container mx-auto mt-5 sm:mt-10 flex sm:flex-row flex-col justify-between gap-5">
+      <div className="image w-full">
         <Image
           src={
             "https://res.cloudinary.com/dxitnm55j/image/upload/v1689490442/tanguya/pexels-quang-nguyen-vinh-2132008_rasvzu.jpg"
