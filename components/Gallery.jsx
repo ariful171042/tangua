@@ -89,7 +89,7 @@ const Gallery = () => {
           {images.map((image) => (
             <div
               key={image.id}
-              className=" w-full h-[4.5rem] md:h-[8rem] overflow-hidden rounded-lg hover:scale-105 duration-300"
+              className=" w-full h-[4.5rem] md:h-[8rem] lg:h-[12rem] overflow-hidden rounded-lg hover:scale-105 duration-300"
             >
               <Image
                 src={image.src}

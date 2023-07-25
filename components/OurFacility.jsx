@@ -62,13 +62,13 @@ const data = [
 
 const OurFacility = () => {
   return (
-    <div className="container mx-auto p-5 md:p-10 ">
+    <div className="container mx-auto p-5 md:p-10 lg:py-0 ">
       <h3 className="text-3xl sm:text-4xl font-medium ">আমাদের সেবা সমূহ</h3>
-      <div className="flex flex-wrap md:justify-between gap-5 justify-center mt-5">
+      <div className="flex flex-wrap md:justify-between gap-5 lg:gap-3 justify-center mt-5">
         {data.map((item) => (
           <div
             key={item.id}
-            className="w-full  md:w-[20.5rem] h-[12rem] md:h-[12rem] overflow-hidden relative"
+            className="w-full  md:w-[20.5rem] h-[12rem] md:h-[12rem] lg:w-[14rem] overflow-hidden relative"
           >
             <Image
               src={item.image}
