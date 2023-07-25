@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BoatTrip = () => {
   return (
-    <div className="container mx-auto mt-5  md:p-10 flex  flex-col lg:grid lg:grid-cols-2  justify-between gap-5">
+    <div className="container mx-auto mt-5  md:px-10 md:pt-5 flex  flex-col lg:grid lg:grid-cols-2  justify-between gap-5 2xl:gap-8">
       <div className="image w-full">
         <Image
           src={
@@ -14,11 +14,11 @@ const BoatTrip = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <div className="detals flex flex-col  justify-between lg:p-0 p-5 ">
-        <h2 className="mb-2 text-3xl font-medium md:text-3xl ">
+      <div className="detals flex flex-col  justify-between lg:p-0 px-5 ">
+        <h2 className="mb-2 text-3xl  font-semibold md:text-3xl xl:font-bold 2xl:text-5xl ">
           একটি নৌকা ভ্রমণ আপনার অবকাশ সম্পূর্ণ করতে পারে
         </h2>
-        <p className="text-xl tracking-wide text-start">
+        <p className="text-xl text-justify md:tracking-wide  xl:leading-snug xl:text-2xl 2xl:text-3xl 2xl:text-justify">
           ফ্লোটিং হাউস অফ টাঙ্গুয়া হল পরাক্রমশালী টাঙ্গুয়ার হাওরে একটি পরিবেশ
           বান্ধব প্রিমিয়াম হাউস বোট, যা ভ্রমনচক্রো এর বোনের উদ্বেগ। এটি
           শুধুমাত্র একটি নৌকা নয়, এটি টাঙ্গুয়ার হাওরে একটি হাউস বোট, যেখানে
@@ -26,7 +26,9 @@ const BoatTrip = () => {
           পরিষেবা, ভ্রমণ বান্ধব পরিবেশ, সুস্বাদু খাবার এবং ভাল আচরণকারী স্টাফ
           সরবরাহ করতে প্রতিশ্রুতিবদ্ধ।
         </p>
-        <button className="mt-3 bg-yellow-400 p-2 rounded-md">আরও জানুন</button>
+        <button className="mt-3 bg-yellow-400 hover:bg-yellow-500 p-2 rounded-md 2xl:p-3 2xl:text-2xl">
+          আরও জানুন
+        </button>
       </div>
     </div>
   );

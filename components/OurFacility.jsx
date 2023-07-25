@@ -62,13 +62,15 @@ const data = [
 
 const OurFacility = () => {
   return (
-    <div className="container mx-auto p-5 md:p-10 lg:py-0 ">
-      <h3 className="text-3xl sm:text-4xl font-medium ">আমাদের সেবা সমূহ</h3>
+    <div className="container mx-auto p-5 md:px-10 lg:pt-5 lg:py-0 xl:pt-12 ">
+      <h3 className="text-3xl sm:text-4xl  2xl:text-5xl font-semibold">
+        আমাদের সেবা সমূহ
+      </h3>
       <div className="flex flex-wrap md:justify-between gap-5 lg:gap-3 justify-center mt-5">
         {data.map((item) => (
           <div
             key={item.id}
-            className="w-full  md:w-[20.5rem] h-[12rem] md:h-[12rem] lg:w-[14rem] overflow-hidden relative"
+            className="w-full  md:w-[20.5rem] h-[12rem] md:h-[12rem] lg:w-[14rem] xl:w-[18rem] 2xl:w-[22rem] 2xl:h-[18rem] overflow-hidden relative"
           >
             <Image
               src={item.image}
@@ -78,7 +80,7 @@ const OurFacility = () => {
               className="w-full h-full object-cover "
             />
             <Overlay />
-            <p className="absolute text-white text-xl font-semibold text-center  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+            <p className="absolute text-white text-xl font-semibold text-center  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 2xl:text-3xl">
               {item.title}
             </p>
           </div>
