@@ -7,11 +7,11 @@ const Navber = () => {
       <div className="container mx-auto w-full h-full md:p-10">
         <div className="w-full h-full flex justify-between items-center">
           <div className="left">
-            <h3 className="text-xl sm:text-2xl md:text-3xl text-md font-semibold">
+            <h3 className="text-xl sm:text-2xl md:text-3xl text-md font-semibold 2xl:text-4xl">
               টাঙ্গুয়ার ভাসমান বাড়ি
             </h3>
           </div>
-          <div className="right sm:flex gap-5 hidden md:text-xl">
+          <div className="right sm:flex gap-5 hidden md:text-xl 2xl:text-2xl">
             <Link href={"/"} className="hover:text-orange-500">
               হোম
             </Link>

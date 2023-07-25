@@ -73,8 +73,8 @@ const Gallery = () => {
   ];
 
   return (
-    <div className=" container mx-auto mt-0 p-5 sm:p-0 md:p-10">
-      <h2 className=" mb-5 text-4xl font-medium">
+    <div className=" container mx-auto mt-0 px-5 mb-5 sm:p-0 md:px-10 lg:pt-5 xl:pt-12">
+      <h2 className=" mb-5 text-4xl 2xl:text-5xl font-semibold">
         টাঙ্গুয়ার হাওর ভ্রমণ ফটোগ্যালারি
       </h2>
 
@@ -89,7 +89,7 @@ const Gallery = () => {
           {images.map((image) => (
             <div
               key={image.id}
-              className=" w-full h-[4.5rem] md:h-[8rem] lg:h-[12rem] overflow-hidden rounded-lg hover:scale-105 duration-300"
+              className=" w-full h-[3.5rem] md:h-[8rem] lg:h-[12rem] xl:h-[15rem] 2xl:h-[18rem] overflow-hidden rounded-lg hover:scale-105 duration-300"
             >
               <Image
                 src={image.src}
