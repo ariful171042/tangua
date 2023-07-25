@@ -73,7 +73,7 @@ const Gallery = () => {
   ];
 
   return (
-    <div className=" container mx-auto mt-10">
+    <div className=" container mx-auto mt-0 p-5 sm:p-0 sm:mt-10">
       <h2 className=" mb-5 text-4xl font-medium">
         টাঙ্গুয়ার হাওর ভ্রমণ ফটোগ্যালারি
       </h2>
@@ -85,11 +85,11 @@ const Gallery = () => {
         showThumbnails={true}
         theme="lightbox"
       >
-        <div className=" grid grid-cols-3 justify-between gap-5 ">
+        <div className=" grid grid-cols-3 justify-between gap-1 sm:gap-5 ">
           {images.map((image) => (
             <div
               key={image.id}
-              className=" w-full h-[13rem] overflow-hidden rounded-lg hover:scale-105 duration-300"
+              className=" w-full h-[4.5rem] sm:h-[13rem] overflow-hidden rounded-lg hover:scale-105 duration-300"
             >
               <Image
                 src={image.src}
