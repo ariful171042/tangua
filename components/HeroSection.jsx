@@ -4,7 +4,7 @@ import Overlay from "./Overlay";
 
 const HeroSection = () => {
   return (
-    <div className=" w-[100vw] sm:h-[90vh] h-[70vh] relative overflow-hidden">
+    <div className=" w-[100vw] sm:h-[90vh] h-[70vh] mt-[10vh]  overflow-hidden">
       <Image
         src={
           "https://res.cloudinary.com/dxitnm55j/image/upload/v1689488073/tanguya/pexels-pixabay-261516_kuiwgr.jpg"
@@ -15,9 +15,10 @@ const HeroSection = () => {
         className=" w-full h-full object-cover"
         priority
       />
-      <Overlay className="fixed" />
-      <div className="absolute w-full xl:w-auto sm:w-auto md:w-full p-5 md:p-10 z-10  top-1/2 mt-8 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-2 justify-center items-center text-white">
-        <h1 className="sm:text-4xl text-3xl font-medium md:text-6xl 2xl:text-8xl">
+      <Overlay className="fixed w-full h-full" />
+
+      <div className="absolute w-full xl:w-auto sm:w-auto md:w-full px-5 md:p-10 z-10  top-1/2  left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col gap-2 justify-center items-center text-white sm:mt-10 ">
+        <h1 className="sm:text-4xl text-4xl font-medium md:text-6xl 2xl:text-8xl">
           টাঙ্গুয়ার ভাসমান বাড়ি
         </h1>
         <p className="text-center text-xl sm:text-sm md:text-3xl md:leading-snug 2xl:text-4xl 2xl:mt-5">
